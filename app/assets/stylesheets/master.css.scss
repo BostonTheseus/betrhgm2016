@@ -1,2 +1,9 @@
 @import "bootstrap-sprockets";
 @impoty "bootstrap";
+
+.clear {
+  clear:both;
+
+hr {
+  clear:both;
+}
