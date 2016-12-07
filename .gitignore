@@ -14,3 +14,11 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Development environment test files should not be displayed
+
+.env
+
+# Pushing this may cause a R11 - Bad Bind Error in Heroku
+
+Procfile

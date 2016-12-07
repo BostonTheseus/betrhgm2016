@@ -13,10 +13,15 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :development, :test do
+  gem 'foreman'
+end
+
 gem 'rails_12factor', group: :production
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 gem 'devise'
+gem 'simple_form'
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 

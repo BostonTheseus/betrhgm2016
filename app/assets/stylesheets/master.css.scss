@@ -1,6 +1,3 @@
-@import "bootstrap-sprockets";
-@impoty "bootstrap";
-
 .clear {
   clear:both;
 
@@ -28,14 +25,11 @@ body {
 
 /* Set the fixed height of the footer here */
 #footer {
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-  left: 0;
   height:$footer-height;
   color:white;
   background-color: rgba(36,32,33,0.9);
   font-family: "Helvetica Neue",Helvetica;
   padding:10px 0px;
   margin-top:30px;
+  font-weight:100;
 }
