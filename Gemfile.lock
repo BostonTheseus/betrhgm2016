@@ -63,6 +63,9 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    mail_form (1.6.0)
+      actionmailer (>= 3.2, < 5.1)
+      activemodel (>= 3.2, < 5.1)
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.12.1)
@@ -135,6 +138,7 @@ DEPENDENCIES
   foreman
   jbuilder (~> 1.2)
   jquery-rails
+  mail_form
   pg
   rails (= 4.0.1)
   rails_12factor
